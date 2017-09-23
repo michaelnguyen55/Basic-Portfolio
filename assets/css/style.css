@@ -186,15 +186,16 @@ aside {
 
 
 /*---------- Contact Form ----------*/
+
 input[type=text] {
-	width: 100%;
+	width: 582px;
 }
 
 textarea {
 	min-height: 80px;
 	max-height: 300px;
-	min-width: 600px;
-	max-width: 600px;
+	min-width: 582px;
+	max-width: 582px;
 }
 
 input[type=text], textarea {
