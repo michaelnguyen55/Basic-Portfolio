@@ -158,8 +158,24 @@ aside {
 .gallery img {
 	height: 210px;
 	width: 260px;
-	margin: 10px 0px 10px 25px;
+	margin: 20px 0px 0px 25px;
 	border: 1px solid #4aaaa5;
+}
+
+.imageContainer {
+	position: relative;
+	float: left;
+}
+
+.imageContainer a {
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-ms-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
+}
+
+.imageContainer a:hover{
+	opacity: 0.7;
 }
 
 .galleryText{
@@ -175,18 +191,11 @@ aside {
 	left: 25px;
 	float: left;
 }
-
-.imageContainer {
-	position: relative;
-	float: left;
-
-}
 /*---------- End Portfolio Gallery ----------*/
 
 
 
 /*---------- Contact Form ----------*/
-
 input[type=text] {
 	width: 582px;
 }
